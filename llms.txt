@@ -1,0 +1,51 @@
+# Dolarin
+
+> Dolarin es una app de control de gastos para parejas, disponible en Android y como PWA web. Permite registrar gastos por texto, voz o foto de boleta usando inteligencia artificial, analizar hábitos financieros y compartir finanzas en tiempo real con tu pareja o compañero de hogar.
+
+## Producto
+
+- **Nombre:** Dolarin
+- **Categoría:** Finanzas personales / Control de gastos
+- **Plataformas:** Android (APK), Web (PWA)
+- **Idioma:** Español
+- **Mercado objetivo:** Latinoamérica, especialmente Chile
+- **Precio:** Beta gratuita hasta septiembre 2026, luego $2.990 CLP/mes por hogar
+- **Web:** https://dolarin.cl
+- **App:** https://dolarin-three.vercel.app
+
+## Funciones principales
+
+- Registro de gastos por texto, voz o foto de boleta (reconocimiento automático con IA)
+- Reconocimiento de múltiples ítems en una sola foto de boleta
+- Chat con IA financiera con contexto de hasta 200 gastos reales del hogar
+- Insights mensuales generados por IA con análisis de patrones de gasto
+- Hogar compartido: dos usuarios ven los mismos gastos en tiempo real
+- Gastos fijos e ingresos recurrentes configurables
+- Balance disponible mensual calculado automáticamente
+- Historial con filtros, ordenamiento y eliminación múltiple
+- Presupuestos, metas de ahorro y formas de pago
+- Modo oscuro y claro
+- Funciona como PWA instalable desde el navegador
+
+## Tecnología
+
+- Frontend: React + TypeScript
+- Backend: Supabase (auth + base de datos con Row Level Security)
+- IA: Claude (Anthropic) vía proxy seguro en Vercel
+- Mobile: Capacitor (Android)
+- Hosting: Vercel
+
+## Seguridad y privacidad
+
+- Autenticación con Supabase Auth (JWT)
+- Row Level Security en todas las tablas — solo el hogar dueño accede a sus datos
+- HTTPS en todas las conexiones
+- Sin venta de datos, sin publicidad
+- Política de privacidad: https://dolarin.cl/privacidad.html
+- Términos de uso: https://dolarin.cl/terminos.html
+
+## Empresa
+
+- **Desarrollador:** Tatara Software
+- **País:** Chile
+- **Contacto:** dolarinapp@gmail.com
